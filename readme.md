@@ -1,8 +1,12 @@
 # Allocator Project
 
+Dynamic memory allocator project. This project requires you to build a dynamic memory allocator that uses a best-fit placement policy and immediate coalescing.
+
+## Requirements
+
 This project requires an understanding of C, memory, and allocation strategies.
 
-## C
+### C
 
 You should know the following C topics:
 - Type casting
@@ -11,19 +15,19 @@ You should know the following C topics:
 
 Reading: K&R up to chapter 6.
 
-## Memory
+### Memory
 
 This project requires at least a rudimentary understanding of memory, and how memory is laid out in a computer.
 
-Reading: Computing Systems A Programmers Perspective 9.1, 9.2, 9.9.1-9.9.6
+Reading: Computer Systems A Programmers Perspective 9.1, 9.2, 9.9.1-9.9.6
 
-## Allocation
+### Allocation
 
 You should have a basic understanding of how allocation works, and the techniques used.
 
-Reading: Computing Systems A Programmers Perspective 9.9.7 - 9.9.14
+Reading: Computer Systems A Programmers Perspective 9.9.7 - 9.9.14
 
-# Usage
+## Usage
 
 There is a collection of tests available in the `./tests/` directory. They test 3 separate functions of the allocator: allocation, freeing, and coalescing. All tests should pass.
 
@@ -46,6 +50,6 @@ All tests are emitted to the `./target/tests` directory.
 
 LLDB can be used on MacBooks to step through and debug the processes.
 
-# Objective
+## Objective
 
 You will build a dynamic memory allocator using the *best-fit* placement policy, and use immediate coalescing.
